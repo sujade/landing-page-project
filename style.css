@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #1f2937;
+    padding: 15px 210px;
+}
+
+/* NAV */
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* TOP */
+
+.top {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.top.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 10px;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.top button {
+    border: none;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    height: 350px; 
+}
+
+/* CARD SECTION */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 210px;
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px 100px 0px;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.square {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.card p {
+    color:black;
+}
+
+.square img {
+    height: 160px; 
+    border-radius: 20px;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 120px 210px;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 210px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+    padding: 10px;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+/* FEETSIE */
+
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px;
+}
