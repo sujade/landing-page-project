@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 
-header {
+.dark-bg {
     background-color: #1f2937;
     padding: 15px 210px;
 }
@@ -113,6 +113,7 @@ main h2 {
     align-items: center;
     flex-wrap: wrap;
     margin: 50px 0px 100px 0px;
+    gap: 50px;
 }
 
 .card {
@@ -121,23 +122,19 @@ main h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-}
-
-.square {
-    border: 4px solid #3882F6;
-    border-radius: 20px;
-    width: 160px;
-    height: 160px;
 }
 
 .card p {
     color:black;
+    padding: 10px;
 }
 
-.square img {
+.card .square {
+    width: 160px;
     height: 160px; 
     border-radius: 20px;
+    border: 4px solid #3882F6;
+    
 }
 
 /* QUOTE */
@@ -146,8 +143,11 @@ main h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #E5E7EB;
     padding: 120px 210px;
+}
+
+.bg-grey {
+    background-color: #E5E7EB;
 }
 
 .quote p {
